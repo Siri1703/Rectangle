@@ -20,6 +20,14 @@ public class RectangleTest {
         assertEquals(8,actualvalue);
     }
 
+    @Test
+    public void toCheckPerimeteris10WhenIntegersAre4andMinus1()
+    {
+        RectangleAreaPerimeter rectangle=new RectangleAreaPerimeter(4,1);
+        int actualvalue=rectangle.perimeter();
+        assertEquals(10,actualvalue);
+    }
+
 
 
 
