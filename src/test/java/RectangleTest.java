@@ -28,6 +28,14 @@ public class RectangleTest {
         assertEquals(10,actualvalue);
     }
 
+    @Test
+    public void toCheckPerimeterisMinus14WhenIntegersAreMinus5andMinus2()
+    {
+        RectangleAreaPerimeter rectangle=new RectangleAreaPerimeter(-5,-2);
+        int actualvalue=rectangle.perimeter();
+        assertEquals(-14,actualvalue);
+    }
+
 
 
 
