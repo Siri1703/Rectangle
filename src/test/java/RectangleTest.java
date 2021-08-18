@@ -8,6 +8,8 @@ public class RectangleTest {
     public void toCheckAreaisSixwhenIntegersAre3and2()
     {
         RectangleAreaPerimeter rectangle=new RectangleAreaPerimeter(3,2);
+        /*rectangle.setL(3);
+        rectangle.setB(2);*/
         int actualvalue=rectangle.area();
         assertEquals(6,actualvalue);
     }
